@@ -6,7 +6,7 @@ A complete step-by-step YouTube tutorial series that teaches Python programming 
 - Real game mechanics: rooms, combat, dice rolls, inventory, equipment slots, save/load, shop system, dual-wield logic, and more
 - Clean, well-commented code with progressive difficulty
 
-🎥 **Full playlist on YouTube**: [Code Quest Series](https://www.youtube.com/playlist?list=PUT_YOUR_PLAYLIST_ID_HERE)
+🎥 **Full playlist on YouTube**: [Code Quest Series]https://youtube.com/playlist?list=PLept9bk6E1qHJ3QAl-kQtDQOomZh-_HS6&si=V0AoqqLevR1SYjYj
 
 Created by **ZeroLvL**  
 Current status: Series complete (8 main quests + polish pass)
