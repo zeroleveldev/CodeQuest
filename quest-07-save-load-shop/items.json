@@ -1,0 +1,454 @@
+{
+  "weapons": {
+    "common": [
+      {
+        "name": "Iron Sword",
+        "type": "weapon",
+        "slot_type": "main_hand",
+        "attack": 5,
+        "price": 50,
+        "lore": "A sturdy iron sword for beginners.",
+        "rarity": "common"
+      },
+      {
+        "name": "Wooden Club",
+        "type": "weapon",
+        "slot_type": "main_hand",
+        "attack": 3,
+        "price": 20,
+        "lore": "Simple but effective in a pinch.",
+        "rarity": "common"
+      },
+      {
+        "name": "Short Dagger",
+        "type": "weapon",
+        "slot_type": "off_hand",
+        "attack": 2,
+        "price": 15,
+        "lore": "Quick and concealable for secondary use.",
+        "rarity": "common"
+      }
+    ],
+    "rare": [
+      {
+        "name": "Silver Dagger",
+        "type": "weapon",
+        "slot_type": "off_hand",
+        "attack": 8,
+        "price": 100,
+        "lore": "Sharp and effective against undead.",
+        "rarity": "rare"
+      },
+      {
+        "name": "Battle Axe",
+        "type": "weapon",
+        "slot_type": "two_hand",
+        "attack": 10,
+        "price": 150,
+        "lore": "Heavy and devastating.",
+        "rarity": "rare"
+      },
+      {
+        "name": "Buckler Shield",
+        "type": "weapon",
+        "slot_type": "off_hand",
+        "defense": 3,
+        "price": 80,
+        "lore": "Small shield for parrying.",
+        "rarity": "rare"
+      }
+    ],
+    "epic": [
+      {
+        "name": "Elven Bow",
+        "type": "weapon",
+        "slot_type": "two_hand",
+        "attack": 12,
+        "price": 300,
+        "lore": "Crafted by elves for precision.",
+        "rarity": "epic"
+      },
+      {
+        "name": "Frost Blade",
+        "type": "weapon",
+        "slot_type": "main_hand",
+        "attack": 15,
+        "price": 400,
+        "lore": "Freezes enemies on contact.",
+        "rarity": "epic"
+      },
+      {
+        "name": "Tower Shield",
+        "type": "weapon",
+        "slot_type": "off_hand",
+        "defense": 10,
+        "price": 350,
+        "lore": "Massive shield for full coverage.",
+        "rarity": "epic"
+      }
+    ],
+    "legendary": [
+      {
+        "name": "Sword of Destiny",
+        "type": "weapon",
+        "slot_type": "main_hand",
+        "attack": 25,
+        "price": 1000,
+        "lore": "Wielded by heroes of legend.",
+        "rarity": "legendary"
+      },
+      {
+        "name": "Thunder Hammer",
+        "type": "weapon",
+        "slot_type": "two_hand",
+        "attack": 30,
+        "price": 1500,
+        "lore": "Calls down lightning strikes.",
+        "rarity": "legendary"
+      }
+    ]
+  },
+  "armor": {
+    "common": [
+      {
+        "name": "Leather Helmet",
+        "type": "armor",
+        "slot_type": "head",
+        "defense": 2,
+        "price": 20,
+        "lore": "Basic head protection from hides.",
+        "rarity": "common"
+      },
+      {
+        "name": "Leather Chestpiece",
+        "type": "armor",
+        "slot_type": "chest",
+        "defense": 3,
+        "price": 40,
+        "lore": "Basic protection from hides.",
+        "rarity": "common"
+      },
+      {
+        "name": "Leather Gloves",
+        "type": "armor",
+        "slot_type": "gloves",
+        "defense": 1,
+        "price": 15,
+        "lore": "Flexible hand protection.",
+        "rarity": "common"
+      },
+      {
+        "name": "Leather Pants",
+        "type": "armor",
+        "slot_type": "pants",
+        "defense": 2,
+        "price": 30,
+        "lore": "Durable legwear.",
+        "rarity": "common"
+      },
+      {
+        "name": "Leather Boots",
+        "type": "armor",
+        "slot_type": "boots",
+        "defense": 1,
+        "price": 20,
+        "lore": "Sturdy footwear.",
+        "rarity": "common"
+      },
+      {
+        "name": "Chain Shirt",
+        "type": "armor",
+        "slot_type": "chest",
+        "defense": 5,
+        "price": 60,
+        "lore": "Linked metal for flexibility.",
+        "rarity": "common"
+      }
+    ],
+    "rare": [
+      {
+        "name": "Plate Helm",
+        "type": "armor",
+        "slot_type": "head",
+        "defense": 4,
+        "price": 100,
+        "lore": "Heavy metal headgear.",
+        "rarity": "rare"
+      },
+      {
+        "name": "Plate Pauldrons",
+        "type": "armor",
+        "slot_type": "shoulder",
+        "defense": 3,
+        "price": 80,
+        "lore": "Shoulder guards of steel.",
+        "rarity": "rare"
+      },
+      {
+        "name": "Plate Mail",
+        "type": "armor",
+        "slot_type": "chest",
+        "defense": 8,
+        "price": 200,
+        "lore": "Heavy metal plates for defense.",
+        "rarity": "rare"
+      },
+      {
+        "name": "Plate Gauntlets",
+        "type": "armor",
+        "slot_type": "gloves",
+        "defense": 3,
+        "price": 70,
+        "lore": "Armored hands.",
+        "rarity": "rare"
+      },
+      {
+        "name": "Plate Greaves",
+        "type": "armor",
+        "slot_type": "pants",
+        "defense": 5,
+        "price": 120,
+        "lore": "Leg protection of plate.",
+        "rarity": "rare"
+      },
+      {
+        "name": "Plate Sabatons",
+        "type": "armor",
+        "slot_type": "boots",
+        "defense": 3,
+        "price": 80,
+        "lore": "Metal boots for warriors.",
+        "rarity": "rare"
+      },
+      {
+        "name": "Scale Armor",
+        "type": "armor",
+        "slot_type": "chest",
+        "defense": 10,
+        "price": 250,
+        "lore": "Overlapping scales like a dragon.",
+        "rarity": "rare"
+      }
+    ],
+    "epic": [
+      {
+        "name": "Dragon Scale Helm",
+        "type": "armor",
+        "slot_type": "head",
+        "defense": 7,
+        "price": 300,
+        "lore": "Crafted from dragon scales.",
+        "rarity": "epic"
+      },
+      {
+        "name": "Dragon Scale Pauldrons",
+        "type": "armor",
+        "slot_type": "shoulder",
+        "defense": 5,
+        "price": 250,
+        "lore": "Shoulders guarded by dragon hide.",
+        "rarity": "epic"
+      },
+      {
+        "name": "Dragon Scale Armor",
+        "type": "armor",
+        "slot_type": "chest",
+        "defense": 15,
+        "price": 500,
+        "lore": "Made from real dragon scales.",
+        "rarity": "epic"
+      },
+      {
+        "name": "Dragon Scale Gloves",
+        "type": "armor",
+        "slot_type": "gloves",
+        "defense": 4,
+        "price": 200,
+        "lore": "Flexible yet tough.",
+        "rarity": "epic"
+      },
+      {
+        "name": "Dragon Scale Leggings",
+        "type": "armor",
+        "slot_type": "pants",
+        "defense": 8,
+        "price": 350,
+        "lore": "Leg armor from dragon scales.",
+        "rarity": "epic"
+      },
+      {
+        "name": "Dragon Scale Boots",
+        "type": "armor",
+        "slot_type": "boots",
+        "defense": 5,
+        "price": 250,
+        "lore": "Boots that tread lightly but protect strongly.",
+        "rarity": "epic"
+      },
+      {
+        "name": "Mystic Robe",
+        "type": "armor",
+        "slot_type": "chest",
+        "defense": 12,
+        "price": 400,
+        "lore": "Infused with protective magic.",
+        "rarity": "epic"
+      }
+    ],
+    "legendary": [
+      {
+        "name": "Divine Crown",
+        "type": "armor",
+        "slot_type": "head",
+        "defense": 10,
+        "price": 600,
+        "lore": "A crown blessed by the gods.",
+        "rarity": "legendary"
+      },
+      {
+        "name": "Divine Mantle",
+        "type": "armor",
+        "slot_type": "shoulder",
+        "defense": 8,
+        "price": 500,
+        "lore": "Shoulders bearing divine weight.",
+        "rarity": "legendary"
+      },
+      {
+        "name": "Armor of the Gods",
+        "type": "armor",
+        "slot_type": "chest",
+        "defense": 25,
+        "price": 1200,
+        "lore": "Blessed by divine powers.",
+        "rarity": "legendary"
+      },
+      {
+        "name": "Divine Gauntlets",
+        "type": "armor",
+        "slot_type": "gloves",
+        "defense": 7,
+        "price": 400,
+        "lore": "Hands touched by divinity.",
+        "rarity": "legendary"
+      },
+      {
+        "name": "Divine Greaves",
+        "type": "armor",
+        "slot_type": "pants",
+        "defense": 12,
+        "price": 700,
+        "lore": "Legs empowered by gods.",
+        "rarity": "legendary"
+      },
+      {
+        "name": "Divine Boots",
+        "type": "armor",
+        "slot_type": "boots",
+        "defense": 8,
+        "price": 500,
+        "lore": "Footwear of the immortals.",
+        "rarity": "legendary"
+      }
+    ]
+  },
+  "accessories": {
+    "common": [
+      {
+        "name": "Iron Ring",
+        "type": "accessory",
+        "slot_type": "accessory",
+        "max_hp_bonus": 10,
+        "price": 30,
+        "lore": "A simple ring that boosts vitality.",
+        "rarity": "common"
+      }
+    ],
+    "rare": [
+      {
+        "name": "Amulet of Strength",
+        "type": "accessory",
+        "slot_type": "accessory",
+        "attack": 5,
+        "price": 150,
+        "lore": "Increases physical power.",
+        "rarity": "rare"
+      }
+    ],
+    "epic": [
+      {
+        "name": "Belt of Giants",
+        "type": "accessory",
+        "slot_type": "accessory",
+        "max_hp_bonus": 50,
+        "price": 400,
+        "lore": "Grants immense endurance.",
+        "rarity": "epic"
+      }
+    ],
+    "legendary": [
+      {
+        "name": "Cloak of Invisibility",
+        "type": "accessory",
+        "slot_type": "accessory",
+        "defense": 20,
+        "price": 1000,
+        "lore": "Makes the wearer hard to detect.",
+        "rarity": "legendary"
+      }
+    ]
+  },
+  "potions": [
+    {
+      "name": "Health Potion",
+      "heal": 20,
+      "price": 10,
+      "lore": "Restores minor wounds.",
+      "rarity": "common"
+    },
+    {
+      "name": "Greater Health Potion",
+      "heal": 50,
+      "price": 25,
+      "lore": "Restores serious injuries.",
+      "rarity": "rare"
+    },
+    {
+      "name": "Ultimate Health Potion",
+      "heal": 100,
+      "price": 100,
+      "lore": "Fully restores health.",
+      "rarity": "epic"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Firebolt Scroll",
+      "spell_damage": 10,
+      "price": 20,
+      "lore": "Hurls a bolt of fire.",
+      "rarity": "common"
+    },
+    {
+      "name": "Lightning Strike Scroll",
+      "spell_damage": 20,
+      "price": 50,
+      "lore": "Calls down lightning.",
+      "rarity": "rare"
+    },
+    {
+      "name": "Heal Scroll",
+      "heal": 30,
+      "price": 30,
+      "lore": "Heals wounds with magic.",
+      "rarity": "rare"
+    },
+    {
+      "name": "Armageddon Scroll",
+      "spell_damage": 50,
+      "price": 200,
+      "lore": "Devastating area attack.",
+      "rarity": "legendary"
+    }
+  ]
+}
