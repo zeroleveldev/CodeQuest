@@ -1,105 +1,107 @@
-<<<<<<< HEAD
-# Code Quest – Build a Text-Based Dungeon Crawler in Python
-=======
-# CodeQuest# Code Quest – Build a Text-Based Dungeon Crawler in Python
->>>>>>> b9e29db (readme.md)
+# ⚔️ CodeQuest – Build a Text-Based Dungeon Crawler in Python
 
-A complete step-by-step YouTube tutorial series that teaches Python programming by building an ever-evolving **text-based RPG / dungeon crawler** from the ground up.
+**A complete, step-by-step YouTube tutorial series that teaches real Python programming by building a fully functional text-based RPG / dungeon crawler from scratch.**
 
-- Beginner-friendly → advanced features
-- Real game mechanics: rooms, combat, dice rolls, inventory, equipment slots, save/load, shop system, dual-wield logic, and more
-- Clean, well-commented code with progressive difficulty
+Perfect for beginners who want to move beyond "print('Hello World')" into **real game mechanics**, clean architecture, and professional coding practices — all while having fun adventuring!
 
-🎥 **Full playlist on YouTube**: [Code Quest Series]https://youtube.com/playlist?list=PLept9bk6E1qHJ3QAl-kQtDQOomZh-_HS6&si=V0AoqqLevR1SYjYj
+🎥 **Watch the full series on YouTube**  
+[→ Code Quest Playlist](https://youtube.com/playlist?list=PLept9bk6E1qHJ3QAl-kQtDQOomZh-_HS6&si=V0AoqqLevR1SYjYj)  
+_(Each video corresponds exactly to one quest folder — jump in at any point!)_
 
-Created by **ZeroLvL**  
-Current status: Series complete (8 main quests + polish pass)
+---
 
-## Repository Structure
+## ✨ Why CodeQuest?
 
-Each folder contains the **exact code state at the end of that video/quest**, so you can jump to any lesson and run it immediately.
+- **Hands-on progression** — Start with dice rolls → end with a polished save/load shop system, dual-wield equipment, and a living dungeon.
+- **Zero dependencies** — Pure Python 3.8+ (standard library only).
+- **Snapshot folders** — Every quest folder contains the **exact code state** at the end of that video so you can follow along or experiment instantly.
+- **Clean, heavily commented code** with ASCII art, clear UI, and thoughtful design patterns.
 
-<<<<<<< HEAD
-code-quest-python-rpg/ ├── README.md ├── quest-01-basics/              # First dice roller & basic structure ├── quest-02-shadow-vault/        # Number-guessing vault puzzle module ├── quest-03-player-inventory/    # Player class + simple inventory ├── quest-04-combat/              # Turn-based combat with dice + crits ├── quest-05-dungeon/             # Rooms, navigation, enemies, treasure ├── quest-06-equipment-basics/    # First equipment bonuses & equip logic ├── quest-07-save-load-shop/      # JSON save/load + merchant with refresh ├── quest-08-expanded-equipment/  # Full gear slots, dual-wield, auto-unequip └── final-game/                   # Polished final version after all quests ├── main.py ├── player.py ├── combat.py ├── world.py ├── room.py ├── inventory.py ├── dice.py └── items.json
-=======
-code-quest-python-rpg/ ├── README.md ├── quest-01-basics/ # First dice roller & basic structure ├── quest-02-shadow-vault/ # Number-guessing vault puzzle module ├── quest-03-player-inventory/ # Player class + simple inventory ├── quest-04-combat/ # Turn-based combat with dice + crits ├── quest-05-dungeon/ # Rooms, navigation, enemies, treasure ├── quest-06-equipment-basics/ # First equipment bonuses & equip logic ├── quest-07-save-load-shop/ # JSON save/load + merchant with refresh ├── quest-08-expanded-equipment/ # Full gear slots, dual-wield, auto-unequip └── final-game/ # Polished final version after all quests ├── main.py ├── player.py ├── combat.py ├── world.py ├── room.py ├── inventory.py ├── dice.py └── items.json
->>>>>>> b9e29db (readme.md)
+---
 
-## How to Run Any Quest
+## 🚀 Quick Start
 
-1. Clone the repository
-<<<<<<< HEAD
-=======
+```bash
+git clone https://github.com/zeroleveldev/CodeQuest.git
+cd CodeQuest
 
->>>>>>> b9e29db (readme.md)
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/code-quest-python-rpg.git
-   cd code-quest-python-rpg
-
-<<<<<<< HEAD
-2.  Go to the quest you want to 
-    cd quest-07-save-load-shop
-
-3.  Run 
-    python main.py
+# Pick any quest and run it
+cd quest-07-save-load-shop
+python main.py
 
 Requirements
-•  Python 3.8+
-•  No external packages needed (pure standard library + built-in modules)
 
+Python 3.8 or higher
+No pip install needed!
 
-Series Progression – What You Learn in Each Quest
-    01.  Basics & Dice - Animated dice rolling, user input, ASCII art
-    02.  Modular Puzzle - OOP vault class, input validation, attempts limit
-    03.  Player & Inventory - Class design, gold, simple item quantities
-    04.  Combat System - Dice-based turns, critical hits, loot tables
-    05.  Dungeon World - Room connections, navigation, enemies, treasure
-    06.  Equipment Intro - Bonuses from items, first equip/unequip logic
-    07.  Save/Load + Shop - JSON persistence, timed merchant stock, random gear
-    08.  Expanded Gear - 10 slots (main/off hand, armor pieces, accessories), dual-wield rules, auto-unequip flow, improved UI
+-----------------------------------------------------------------------------------
 
-Final Game Highlights (quest-08 & final-game)
-•  10 equipment slots with realistic rules (2H weapons disable off-hand, dual-wield allowed)
-•  Percentage-based armor that always lets at least 1 damage through
-•  Merchant with rotating stock (refreshes every 10 min)
-•  Save/load system preserving inventory, equipment, position & progress
-•  Beautiful, readable console UI with dividers and clean formatting
-•  Random loot, crits, prophecies, vault puzzles, and more
-=======
-   ```
+📁 Repository Structure
+Each folder is a complete, runnable milestone:
 
-2. Go to the quest you want to
-   cd quest-07-save-load-shop
+CodeQuest/
+├── README.md
+├── quest-01-dice/          # Basics + animated dice roller
+├── quest-02-shadow-vault/  # OOP puzzle module (vault)
+├── quest-03-enchanted-inventory/ # Player class + inventory system
+├── quest-04-combat/        # Turn-based combat with crits & loot
+├── quest-05-the-dungeon/   # World map, rooms, enemies & treasure
+├── quest-06-xp-leveling/   # Equipment bonuses & equip logic
+├── quest-07-save-load-shop/# JSON saves + dynamic merchant shop
+├── quest-08-expanded-inventory/ # 10 gear slots, dual-wield, auto-unequip
+├── final-game/             # Fully polished version (all features combined)
+│   ├── main.py
+│   ├── player.py
+│   ├── combat.py
+│   ├── world.py
+│   ├── room.py
+│   ├── inventory.py
+│   ├── dice.py
+│   └── items.json
+└── (most quests contain a clean `src/` layout for easy navigation)
 
-3. Run
-   python main.py
+-------------------------------------------------------------------------------------
 
-Requirements
-• Python 3.8+
-• No external packages needed (pure standard library + built-in modules)
+📋 What You Learn in Each Quest
 
-Series Progression – What You Learn in Each Quest 01. Basics & Dice - Animated dice rolling, user input, ASCII art 02. Modular Puzzle - OOP vault class, input validation, attempts limit 03. Player & Inventory - Class design, gold, simple item quantities 04. Combat System - Dice-based turns, critical hits, loot tables 05. Dungeon World - Room connections, navigation, enemies, treasure 06. Equipment Intro - Bonuses from items, first equip/unequip logic 07. Save/Load + Shop - JSON persistence, timed merchant stock, random gear 08. Expanded Gear - 10 slots (main/off hand, armor pieces, accessories), dual-wield rules, auto-unequip flow, improved UI
+Quest,Title,Key Skills Mastered
+01: Dice & Basics,"Input loops, ASCII art, random, functions"
+02: Shadow Vault,"OOP classes, validation, retry limits"
+03: Enchanted Inventory,"Classes, dictionaries, gold system"
+04: Combat Arena,"Turn-based logic, crits, loot tables"
+05: The Dungeon,"Graph-based rooms, navigation, encounters"
+06: Equipment Foundations,"Item bonuses, equip/unequip flow"
+07: Save/Load + Merchant,"JSON persistence, timers, random stock"
+08: Expanded Gear System,"10 slots, dual-wield rules, improved UX"
 
-Final Game Highlights (quest-08 & final-game)
-• 10 equipment slots with realistic rules (2H weapons disable off-hand, dual-wield allowed)
-• Percentage-based armor that always lets at least 1 damage through
-• Merchant with rotating stock (refreshes every 10 min)
-• Save/load system preserving inventory, equipment, position & progress
-• Beautiful, readable console UI with dividers and clean formatting
-• Random loot, crits, prophecies, vault puzzles, and more
->>>>>>> b9e29db (readme.md)
-Contributing & Feedback
-Found a bug? Have an idea for a bonus quest?
-→ Open an issue or pull request — contributions welcome!
-You can also leave feedback directly in the YouTube comments — I read every one.
-License
-MIT License
-Feel free to use, modify, and learn from this code for personal or educational purposes.
-Happy adventuring! ⚔️
-— Samuel
+Final Game Highlights:
+
+- Realistic 10-slot equipment (2H weapons block off-hand, dual-wield supported)
+- Armor always allows minimum 1 damage
+- Merchant stock refreshes every 10 minutes
+- Full save/load (position + inventory + equipment)
+- Beautiful console UI with borders, colors (via ANSI), and smooth flow
+- Vault puzzles, prophecies, crits, random loot — tons of replayability!
+
+🎮 How to Play the Final Game
+cd quest-08-expanded-inventory
+cd src
+python main.py
+
+Explore commands like go north, attack, equip sword, save, shop, inventory, etc. Type help anytime!
+
+🤝 Contributing & Feedback
+
+- Found a bug or want a Bonus Quest (multiplayer? GUI? procedural generation?) → Open an Issue or PR!
+- Video feedback → Drop a comment on the matching YouTube episode (I read every single one ❤️)
+
+📜 License
+MIT License — Free to use, modify, fork, and learn from for personal or educational purposes. Commercial use welcome too!
+
+👤 Created by
+Samuel (ZeroLvL)
 Lake Elsinore, California
-<<<<<<< HEAD
 March 2026
-=======
-March 2026
->>>>>>> b9e29db (readme.md)
+Let's build epic things together!
+YouTube → @CodingQuests • GitHub → zeroleveldev
+```
